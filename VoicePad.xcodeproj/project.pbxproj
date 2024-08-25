@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69D87B6F2C7AF79700F0E663 /* VoicePadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D87B6E2C7AF79700F0E663 /* VoicePadApp.swift */; };
+		69D87B6F2C7AF79700F0E663 /* VoicePad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D87B6E2C7AF79700F0E663 /* VoicePad.swift */; };
 		69D87B712C7AF79700F0E663 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D87B702C7AF79700F0E663 /* ContentView.swift */; };
 		69D87B732C7AF79700F0E663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D87B722C7AF79700F0E663 /* Assets.xcassets */; };
 		69D87B762C7AF79700F0E663 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D87B752C7AF79700F0E663 /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		69D87B6B2C7AF79700F0E663 /* VoicePad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoicePad.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		69D87B6E2C7AF79700F0E663 /* VoicePadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicePadApp.swift; sourceTree = "<group>"; };
+		69D87B6E2C7AF79700F0E663 /* VoicePad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicePad.swift; sourceTree = "<group>"; };
 		69D87B702C7AF79700F0E663 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		69D87B722C7AF79700F0E663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69D87B752C7AF79700F0E663 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		69D87B6D2C7AF79700F0E663 /* VoicePad */ = {
 			isa = PBXGroup;
 			children = (
-				69D87B6E2C7AF79700F0E663 /* VoicePadApp.swift */,
+				69D87B6E2C7AF79700F0E663 /* VoicePad.swift */,
 				69D87B702C7AF79700F0E663 /* ContentView.swift */,
 				69D87B722C7AF79700F0E663 /* Assets.xcassets */,
 				69D87B742C7AF79700F0E663 /* Preview Content */,
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69D87B712C7AF79700F0E663 /* ContentView.swift in Sources */,
-				69D87B6F2C7AF79700F0E663 /* VoicePadApp.swift in Sources */,
+				69D87B6F2C7AF79700F0E663 /* VoicePad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

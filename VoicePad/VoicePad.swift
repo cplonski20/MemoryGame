@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct VoicePadApp: App {
+struct VoicePad: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

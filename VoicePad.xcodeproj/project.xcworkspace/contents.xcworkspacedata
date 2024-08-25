@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/charlesplonski/code/App_dev/VoicePad/VoicePad.xcodeproj">
    </FileRef>
 </Workspace>
