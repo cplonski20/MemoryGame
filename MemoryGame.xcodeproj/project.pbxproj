@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69D87B6F2C7AF79700F0E663 /* VoicePad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D87B6E2C7AF79700F0E663 /* VoicePad.swift */; };
-		69D87B712C7AF79700F0E663 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D87B702C7AF79700F0E663 /* ContentView.swift */; };
+		69D87B6F2C7AF79700F0E663 /* MemoryGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D87B6E2C7AF79700F0E663 /* MemoryGameApp.swift */; };
+		69D87B712C7AF79700F0E663 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D87B702C7AF79700F0E663 /* EmojiMemoryGameView.swift */; };
 		69D87B732C7AF79700F0E663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D87B722C7AF79700F0E663 /* Assets.xcassets */; };
 		69D87B762C7AF79700F0E663 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D87B752C7AF79700F0E663 /* Preview Assets.xcassets */; };
+		69D87B7D2C7C1AA200F0E663 /* MemorizeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D87B7C2C7C1AA200F0E663 /* MemorizeModel.swift */; };
+		69D87B7F2C7C1BDF00F0E663 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D87B7E2C7C1BDF00F0E663 /* EmojiMemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		69D87B6B2C7AF79700F0E663 /* StanfordApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanfordApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		69D87B6E2C7AF79700F0E663 /* VoicePad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicePad.swift; sourceTree = "<group>"; };
-		69D87B702C7AF79700F0E663 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		69D87B6B2C7AF79700F0E663 /* MemoryGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D87B6E2C7AF79700F0E663 /* MemoryGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameApp.swift; sourceTree = "<group>"; };
+		69D87B702C7AF79700F0E663 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		69D87B722C7AF79700F0E663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69D87B752C7AF79700F0E663 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		69D87B7C2C7C1AA200F0E663 /* MemorizeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeModel.swift; sourceTree = "<group>"; };
+		69D87B7E2C7C1BDF00F0E663 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +39,7 @@
 		69D87B622C7AF79700F0E663 = {
 			isa = PBXGroup;
 			children = (
-				69D87B6D2C7AF79700F0E663 /* VoicePad */,
+				69D87B6D2C7AF79700F0E663 /* MemoryGame */,
 				69D87B6C2C7AF79700F0E663 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +47,22 @@
 		69D87B6C2C7AF79700F0E663 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69D87B6B2C7AF79700F0E663 /* StanfordApp.app */,
+				69D87B6B2C7AF79700F0E663 /* MemoryGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		69D87B6D2C7AF79700F0E663 /* VoicePad */ = {
+		69D87B6D2C7AF79700F0E663 /* MemoryGame */ = {
 			isa = PBXGroup;
 			children = (
-				69D87B6E2C7AF79700F0E663 /* VoicePad.swift */,
-				69D87B702C7AF79700F0E663 /* ContentView.swift */,
+				69D87B6E2C7AF79700F0E663 /* MemoryGameApp.swift */,
+				69D87B702C7AF79700F0E663 /* EmojiMemoryGameView.swift */,
+				69D87B7E2C7C1BDF00F0E663 /* EmojiMemoryGame.swift */,
+				69D87B7C2C7C1AA200F0E663 /* MemorizeModel.swift */,
 				69D87B722C7AF79700F0E663 /* Assets.xcassets */,
 				69D87B742C7AF79700F0E663 /* Preview Content */,
 			);
-			path = VoicePad;
+			path = MemoryGame;
 			sourceTree = "<group>";
 		};
 		69D87B742C7AF79700F0E663 /* Preview Content */ = {
@@ -70,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		69D87B6A2C7AF79700F0E663 /* StanfordApp */ = {
+		69D87B6A2C7AF79700F0E663 /* MemoryGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69D87B792C7AF79700F0E663 /* Build configuration list for PBXNativeTarget "StanfordApp" */;
+			buildConfigurationList = 69D87B792C7AF79700F0E663 /* Build configuration list for PBXNativeTarget "MemoryGame" */;
 			buildPhases = (
 				69D87B672C7AF79700F0E663 /* Sources */,
 				69D87B682C7AF79700F0E663 /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = StanfordApp;
+			name = MemoryGame;
 			productName = VoicePad;
-			productReference = 69D87B6B2C7AF79700F0E663 /* StanfordApp.app */;
+			productReference = 69D87B6B2C7AF79700F0E663 /* MemoryGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 69D87B662C7AF79700F0E663 /* Build configuration list for PBXProject "StanfordApp" */;
+			buildConfigurationList = 69D87B662C7AF79700F0E663 /* Build configuration list for PBXProject "MemoryGame" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				69D87B6A2C7AF79700F0E663 /* StanfordApp */,
+				69D87B6A2C7AF79700F0E663 /* MemoryGame */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69D87B712C7AF79700F0E663 /* ContentView.swift in Sources */,
-				69D87B6F2C7AF79700F0E663 /* VoicePad.swift in Sources */,
+				69D87B712C7AF79700F0E663 /* EmojiMemoryGameView.swift in Sources */,
+				69D87B6F2C7AF79700F0E663 /* MemoryGameApp.swift in Sources */,
+				69D87B7D2C7C1AA200F0E663 /* MemorizeModel.swift in Sources */,
+				69D87B7F2C7C1BDF00F0E663 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +279,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VoicePad/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MemoryGame/Preview Content\"";
 				DEVELOPMENT_TEAM = GY5VB8685R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -285,7 +293,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.CharliePlonski.VoicePad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CharliePlonski.MemoryGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -300,7 +308,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VoicePad/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MemoryGame/Preview Content\"";
 				DEVELOPMENT_TEAM = GY5VB8685R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -314,7 +322,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.CharliePlonski.VoicePad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CharliePlonski.MemoryGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		69D87B662C7AF79700F0E663 /* Build configuration list for PBXProject "StanfordApp" */ = {
+		69D87B662C7AF79700F0E663 /* Build configuration list for PBXProject "MemoryGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69D87B772C7AF79700F0E663 /* Debug */,
@@ -334,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69D87B792C7AF79700F0E663 /* Build configuration list for PBXNativeTarget "StanfordApp" */ = {
+		69D87B792C7AF79700F0E663 /* Build configuration list for PBXNativeTarget "MemoryGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69D87B7A2C7AF79700F0E663 /* Debug */,
