@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		69D87B6B2C7AF79700F0E663 /* VoicePad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoicePad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D87B6B2C7AF79700F0E663 /* StanfordApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanfordApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D87B6E2C7AF79700F0E663 /* VoicePad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicePad.swift; sourceTree = "<group>"; };
 		69D87B702C7AF79700F0E663 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		69D87B722C7AF79700F0E663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		69D87B6C2C7AF79700F0E663 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69D87B6B2C7AF79700F0E663 /* VoicePad.app */,
+				69D87B6B2C7AF79700F0E663 /* StanfordApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		69D87B6A2C7AF79700F0E663 /* VoicePad */ = {
+		69D87B6A2C7AF79700F0E663 /* StanfordApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69D87B792C7AF79700F0E663 /* Build configuration list for PBXNativeTarget "VoicePad" */;
+			buildConfigurationList = 69D87B792C7AF79700F0E663 /* Build configuration list for PBXNativeTarget "StanfordApp" */;
 			buildPhases = (
 				69D87B672C7AF79700F0E663 /* Sources */,
 				69D87B682C7AF79700F0E663 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = VoicePad;
+			name = StanfordApp;
 			productName = VoicePad;
-			productReference = 69D87B6B2C7AF79700F0E663 /* VoicePad.app */;
+			productReference = 69D87B6B2C7AF79700F0E663 /* StanfordApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 69D87B662C7AF79700F0E663 /* Build configuration list for PBXProject "VoicePad" */;
+			buildConfigurationList = 69D87B662C7AF79700F0E663 /* Build configuration list for PBXProject "StanfordApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				69D87B6A2C7AF79700F0E663 /* VoicePad */,
+				69D87B6A2C7AF79700F0E663 /* StanfordApp */,
 			);
 		};
 /* End PBXProject section */
@@ -325,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		69D87B662C7AF79700F0E663 /* Build configuration list for PBXProject "VoicePad" */ = {
+		69D87B662C7AF79700F0E663 /* Build configuration list for PBXProject "StanfordApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69D87B772C7AF79700F0E663 /* Debug */,
@@ -334,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69D87B792C7AF79700F0E663 /* Build configuration list for PBXNativeTarget "VoicePad" */ = {
+		69D87B792C7AF79700F0E663 /* Build configuration list for PBXNativeTarget "StanfordApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69D87B7A2C7AF79700F0E663 /* Debug */,

@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "69D87B6A2C7AF79700F0E663"
-               BuildableName = "VoicePad.app"
-               BlueprintName = "VoicePad"
-               ReferencedContainer = "container:VoicePad.xcodeproj">
+               BuildableName = "StanfordApp.app"
+               BlueprintName = "StanfordApp"
+               ReferencedContainer = "container:StanfordApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69D87B6A2C7AF79700F0E663"
-            BuildableName = "VoicePad.app"
-            BlueprintName = "VoicePad"
-            ReferencedContainer = "container:VoicePad.xcodeproj">
+            BuildableName = "StanfordApp.app"
+            BlueprintName = "StanfordApp"
+            ReferencedContainer = "container:StanfordApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69D87B6A2C7AF79700F0E663"
-            BuildableName = "VoicePad.app"
-            BlueprintName = "VoicePad"
-            ReferencedContainer = "container:VoicePad.xcodeproj">
+            BuildableName = "StanfordApp.app"
+            BlueprintName = "StanfordApp"
+            ReferencedContainer = "container:StanfordApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
