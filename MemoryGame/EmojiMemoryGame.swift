@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//Big idea is this will interact with the model through fucntions only holding a single refrence to the model's struct and that way it will write in place
 
 class EmojiMemoryGame: ObservableObject {
     private static let emojis : [String] = ["😀", "❤️", "🎉", "🔥", "👍", "😂", "🌟", "💡", "😎", "🌍", "🥳", "💪", "🧠", "🎨", "🍕", "🎧", "🚀", "🏆", "🌈", "🕶"]
