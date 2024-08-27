@@ -10,7 +10,18 @@ import Foundation
 struct MemorizeModel<CardContent> where CardContent : Equatable{
     private(set) var cards: Array<Card>
     
-    var indexOfTheOneAndOnlyFaceUpCard: Int? = nil
+    var indexOfTheOneAndOnlyFaceUpCard: Int? {
+        set{
+            cards.indices.forEach(){
+                cards[$0].isFaceUp = (newValue == $0)
+            }
+        }
+        get{
+            cards.indices.filter{
+                index in cards[index].isFaceUp
+            }.only
+        }
+    }
     
     init(numPairsOfCards : Int, cardContentFactory: (Int) -> CardContent) {
         cards = []
@@ -30,12 +41,8 @@ struct MemorizeModel<CardContent> where CardContent : Equatable{
                             cards[chosenIndex].isMatched = true
                             cards[potentialMatchIndex].isMatched = true
                         }
-                        indexOfTheOneAndOnlyFaceUpCard = nil
 
                     } else {
-                        for index in cards.indices {
-                            cards[index].isFaceUp = false
-                        }
                         indexOfTheOneAndOnlyFaceUpCard = chosenIndex
                     }
                     cards[chosenIndex].isFaceUp = true
@@ -60,4 +67,11 @@ struct MemorizeModel<CardContent> where CardContent : Equatable{
         }
     }
     
+}
+
+
+extension Array{
+    var only: Element? {
+        return count == 1 ? first : nil
+    }
 }
